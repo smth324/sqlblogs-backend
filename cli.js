@@ -9,7 +9,7 @@ const sequelize = new Sequelize(process.env.DATABASE_URL, {
     }
   },
 })
-
+//asd
 class Blog extends Model {}
 Blog.init({
   id: {
